@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonsActivity">
+
+    <TextView
+        android:id="@+id/tvPersonInformation"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="@string/enter_person_information"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPersonInformation" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etFirstName" />
+
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:hint="@string/age"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etLastName" />
+
+    <Button
+        android:id="@+id/btnDisplayPersons"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_margin="8dp"
+        android:onClick="displayPersons"
+        android:text="@string/display_persons"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/btnClearInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etAge" />
+
+    <Button
+        android:id="@+id/btnClearInfo"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_margin="8dp"
+        android:text="@string/clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnterInfo"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_margin="8dp"
+        android:onClick="enterInfo"
+        android:text="@string/enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

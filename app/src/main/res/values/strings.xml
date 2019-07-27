@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MultiFunction</string>
+    <string name="week_1_day_4">Week 1 Day 4</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="create_persons">Create persons</string>
+    <string name="enter_person_information">Enter Person Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="enter">Enter</string>
+    <string name="clear">Clear</string>
+    <string name="required">Required</string>
+    <string name="display_persons">Display %d Person(s)</string>
+    <string name="list_of_people">List of People</string>
 </resources>
