@@ -13,4 +13,15 @@
     <string name="required">Required</string>
     <string name="display_persons">Display %d Person(s)</string>
     <string name="list_of_people">List of People</string>
+    <string name="_0">$0</string>
+    <string name="_2m">$2M</string>
+    <string name="calculate_emi">Calculate EMI</string>
+    <string name="_18">18%</string>
+    <string name="_8">8%</string>
+    <string name="_1_month">1 Month</string>
+    <string name="_300_months">300 Months</string>
+    <string name="dollar">$</string>
+    <string name="percent">% Interest</string>
+    <string name="month_s">Month(s)</string>
+    <string name="emi_output">Monthly Payments: $%,.2f\nTotal Payment: $%,.2f</string>
 </resources>

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, CameraActivity.class);
                 break;
             case R.id.btnEMIActivity:
+                intent = new Intent(this, EMIActivity.class);
                 break;
             case R.id.btnPersonObjects:
                 intent = new Intent(this, PersonsActivity.class);
